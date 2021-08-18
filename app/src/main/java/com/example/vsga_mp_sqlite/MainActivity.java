@@ -6,7 +6,6 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText et_lo
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

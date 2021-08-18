@@ -52,9 +52,9 @@ public class LoginActivity extends AppCompatActivity {
                 Boolean res = dbHelper.checkUser(username, password);
                 if (res == true) {
                     Toast.makeText(LoginActivity.this, "Login Success", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(LoginActivity.this MainActivity.class));
+                    startActivity(new Intent(LoginActivity.this, MainActivity.class));
                 } else {
-                    Toast.makeText(LoginActivity.this "Login Failed", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginActivity.this, "Login Failed", Toast.LENGTH_SHORT).show();
                 }
 
             }
